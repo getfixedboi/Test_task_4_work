@@ -10,7 +10,6 @@ public abstract class Interactable : MonoBehaviour
     protected virtual void Awake()
     {
         IsLastInteracted = false;
-        //source = GetComponent<AudioSource>();
     }
     public abstract void OnFocus();
     public abstract void OnLoseFocus();
